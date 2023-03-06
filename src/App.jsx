@@ -2,22 +2,25 @@ import React from 'react';
 import AboutMe from'./componenets/About';
 import Contact from'./componenets/Contact';
 import Navbar from'./componenets/Navbar';
-import Projects from'./componenets/Projects';
+import Projects from"./componenets/Projects";
 import Skills from'./componenets/Skills';
 
 
 export default function App() {
   return (
-    <div className= "w-screen h-screen flex items-center justify-center text-white-400 bg-gray-900 body-font">
+    <main className='text-gray-400 bg-gray-900 body-font'>
+
+    {/* // <div className= "w-screen h-screen flex items-center justify-center text-white-400 bg-gray-900 body-font"> */}
       <Navbar/>
       <AboutMe/>
       <Projects/>
       <Skills/>
       <Contact/>
-    </div>
+    </main>
   )
 }
 
+    {/* // </div> */}
 
 
 

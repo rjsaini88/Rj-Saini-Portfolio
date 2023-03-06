@@ -41,5 +41,8 @@ export const projects = [
         link: " ",
      },
 
+]
+export const skills = [
+JavaScript, React, NodeJs
 
 ]
