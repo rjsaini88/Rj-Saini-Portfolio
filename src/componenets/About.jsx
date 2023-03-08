@@ -23,11 +23,11 @@ export default function AboutMe() {
 </div>
 
 
+    <div className="w-screen h-screen flex items-center justify-center">
+      <span>Hello World</span>
+    </div>
 
 </section>
 
-    // <div className="w-screen h-screen flex items-center justify-center">
-    //   <span>Hello World</span>
-    // </div>
   )
 }
