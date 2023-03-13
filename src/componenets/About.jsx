@@ -41,19 +41,17 @@ export default function AboutMe() {
             {/* <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center"> */}
           </div>
         </div>
-        <div className="lg:max-w-lg object-center lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             src="../assets/profilepic.jpeg"
             alt="My profile picture"
           />
         </div>
-        <div
+        {/* <div
           id="contact"
           className="w-screen h-screen flex items-center justify-center"
-        >
-          
-        </div>
+        ></div> */}
       </div>
     </section>
   );
