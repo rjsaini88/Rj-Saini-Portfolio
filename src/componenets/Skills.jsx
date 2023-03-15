@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     //use style card here. create and import card
     <section id="skills">
-      <div className="container px-5 py-10 mx auto">
+      <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <h1 className>Skills and Technoogies</h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">

@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: "Get Your Drink On ",
-    subtitle: " ",
+    subtitle: "JavaScript, Jquery, and Bootstrap ",
     description:
       " My first proejct working in a team, best take away from this was not what to do, but learend what not to do.",
     image: "../assets/GetYourDrinkOn.png ",
@@ -39,12 +39,12 @@ export const projects = [
     image: "../assets/WeatherApp.png ",
     link: "https://rjsaini88.github.io/Weather-Application/ ",
   },
-  //   {
-  //     title:  "  ",
-  //     subtitle: " ",
-  //     description: " ",
-  //     image: " ",
-  //     link: " ",
-  //   },
+  {
+    title: "Note Taker Application  ",
+    subtitle: "Express ",
+    description: "Getting a better understanding of express and routes. ",
+    image: " ../assets/noteTaker.png",
+    link: "https://note-taker-rj.herokuapp.com/ ",
+  },
 ];
-export const skills = ["JavaScript", "React", "NodeJs"];
+export const skills = ["HTML",'CSS', "JavaScript", 'NodeJS', 'Express', 'SQL', 'MongoDB', "React"];
