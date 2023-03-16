@@ -3,9 +3,10 @@ import { useState } from "react";
 // import './App.css';
 import AboutMe from "./componenets/About";
 import Contact from "./componenets/Contact";
-import Navbar from "./componenets/Navbar";
+// import Navbar from "./componenets/Navbar";
 import Projects from "./componenets/Projects";
 import Skills from "./componenets/Skills";
+import Footer from "./componenets/Footer";
 // import PortfolioContainer from "./componenets/PortfolioContainer";
 import NavTabs from "./componenets/NavTabs";
 // import PortfolioContainer from "./componenets/PortfolioContainer";
@@ -16,12 +17,12 @@ export default function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
       {/* // <div className="w-screen h-screen flex items-center justify-center text-white-400 bg-gray-900 body-font"> */}
       <NavTabs />
-      {/* <Navbar/> */}
       <AboutMe />
       <Projects />
       <Skills />
       <Contact />
-      {/* <PortfolioContainer/> */}
+      <Footer/>
+  
     </main>
 
     // <p>Hello World</p>

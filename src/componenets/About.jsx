@@ -28,7 +28,7 @@ export default function AboutMe() {
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 
             focus:outline-none hover:bg-green-600 rounded text-lg"
             >
-              Work with me
+              Let's Chat
             </a>
 
             <a
@@ -36,7 +36,7 @@ export default function AboutMe() {
             focus:outline-none hover:bg-green-600 rounded text-lg"
               href="#projects"
             >
-              Projects I've done, see my past work.{" "}
+              See my work!!!{" "}
             </a>
             {/* <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center"> */}
           </div>
