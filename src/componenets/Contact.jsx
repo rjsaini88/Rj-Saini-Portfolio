@@ -37,7 +37,7 @@ export default function Contact() {
         </div>
       </div>
       {/* create form in react */}
-      {/* <form
+      <form
         name="contact"
         className="lg;w-1/3 md:w1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
       >
@@ -67,8 +67,24 @@ text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-color durati
 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-color duration-200 ease-in-out"
           />
         </div>
-      </form> */}
-      <form>
+        <div className="relative mb-4">
+          <label htmlFor="message" className="leading-7 text-sm text-gray-400">
+            Message
+          </label>
+          <textarea
+            name="message"
+            id="message"
+            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900
+h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-color duration-200 ease-in-out
+"
+          />
+        </div>
+        <button
+          type="submit"
+          className="text-white bd-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+        ></button>
+      </form>
+      {/* <form>
         <div className="mb-3 pt-0">
           <input
             type="text"
@@ -106,7 +122,7 @@ text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-color durati
             Send Message
           </div>
         </div>
-      </form>
+      </form> */}
     </section>
 
     // <div className="w-screen h-screen flex items-center justify-center">
