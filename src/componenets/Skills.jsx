@@ -2,7 +2,7 @@ import { skills } from "./DataInfo";
 
 export default function Skills() {
   return (
-    //use style card here. create and import card
+
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
@@ -28,8 +28,6 @@ export default function Skills() {
         </div>
       </div>
     </section>
-    // <div className="w-screen h-screen flex items-center justify-center">
-    //   <span>Hello World</span>
-    // </div>
+
   );
 }
