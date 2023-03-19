@@ -46,10 +46,7 @@ h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transi
 "
           />
         
-        {/* <button
-          type="submit"
-          className="text-white bd-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-        ></button> */}
+
         </div>
         <button
               className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow 

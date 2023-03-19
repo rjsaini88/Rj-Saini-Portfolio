@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import AboutMe from "./componenets/About";
-import Contact from "./componenets/Contact";
-import Projects from "./componenets/Projects";
-import Skills from "./componenets/Skills";
-import Footer from "./componenets/Footer";
-import NavTabs from "./componenets/NavTabs";
+import AboutMe from "./components/About";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+import NavTabs from "./components/NavTabs";
 
 export default function App() {
   return (
