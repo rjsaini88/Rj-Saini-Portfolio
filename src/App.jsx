@@ -6,13 +6,15 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import NavTabs from "./components/NavTabs";
+import Projects2 from "./components/Project2";
 
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <NavTabs />
       <AboutMe />
-      <Projects />
+      <Projects2 />
+      {/* <Projects /> */}
       <Skills />
       <Contact />
       <Footer />

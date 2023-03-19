@@ -1,5 +1,4 @@
-// const profilePic = new URL('./src/assets/pp.jpeg', import.meta.url).href
-// import React from "react";
+
 import profilePic from "/src/assets/pp.jpeg";
 
 export default function AboutMe() {

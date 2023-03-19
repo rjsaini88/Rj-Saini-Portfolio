@@ -1,10 +1,13 @@
+import portfolioPic from "/src/assets/firstPortfolio.png";
+
 export const projects = [
   {
     title: "My Very first Portfolio ",
     subtitle: "HTML and CSS",
     description:
       "My very first portfolio I created the seccond week of class. I feel this is something special as it shows where I started from and how much I have grown. It a great benchmark to guage my progress as a developer   ",
-    image: "./src/assets/firstPortfolio.png ",
+    // image: {portfolioPic},
+    image: "./src/assets/firstPortfolio.png",
     link: " https://rjsaini88.github.io/hw2-2022/",
   },
   {
