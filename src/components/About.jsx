@@ -1,4 +1,7 @@
 // const profilePic = new URL('./src/assets/pp.jpeg', import.meta.url).href
+// import React from "react";
+import profilePic from "/src/assets/pp.jpeg";
+
 export default function AboutMe() {
   return (
     <section id="about">
@@ -46,8 +49,8 @@ export default function AboutMe() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            src="./src/assets/pp.jpeg"
-            // src='profilePic'
+            // src="./src/assets/pp.jpeg"
+            src={profilePic}
             alt="My profile picture"
           />
         </div>
