@@ -1,3 +1,4 @@
+// const profilePic = new URL('./src/assets/pp.jpeg', import.meta.url).href
 export default function AboutMe() {
   return (
     <section id="about">
@@ -24,7 +25,7 @@ export default function AboutMe() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="#projects"
               className="inline-flex text-black bg-orange-500 border-0 py-2 px-6 
             focus:outline-none hover:bg-emerald-600 hover:text-white rounded text-lg"
             >
@@ -34,7 +35,8 @@ export default function AboutMe() {
             <a
               className="ml-4 inline-flex text-white bg-emerald-600 border-0 py-2 px-6
             focus:outline-none hover:bg-orange-500 hover:text-black rounded text-lg"
-              href="#projects"
+              h
+              href="#contact"
             >
               Let's Chat
             </a>
@@ -45,6 +47,7 @@ export default function AboutMe() {
           <img
             className="object-cover object-center rounded"
             src="./src/assets/pp.jpeg"
+            // src='profilePic'
             alt="My profile picture"
           />
         </div>
