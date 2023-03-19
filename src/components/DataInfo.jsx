@@ -20,7 +20,7 @@ export const projects = [
     title: "Timed Quiz ",
     subtitle: " ",
     description: " Use of local storage",
-    image: " ./src/assets/TimeQuiz.png",
+    image: "./src/assets/TimeQuiz.png",
     link: "https://rjsaini88.github.io/Timed-Coding-Quiz/ ",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "JavaScript, Jquery, and Bootstrap ",
     description:
       " My first proejct working in a team, best take away from this was not what to do, but learend what not to do.",
-    image: "./src/assets/GetYourDrinkOn.png ",
+    image: "../src/assets/GetYourDrinkOn.png ",
     link: " https://rjsaini88.github.io/GetYourDrinkON-/",
   },
   {

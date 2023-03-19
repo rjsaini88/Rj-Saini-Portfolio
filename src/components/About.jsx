@@ -44,7 +44,7 @@ export default function AboutMe() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            src="./src/assets/profilepic.jpeg"
+            src="./src/assets/pp.jpeg"
             alt="My profile picture"
           />
         </div>
