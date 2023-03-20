@@ -49,4 +49,4 @@ For additional questions, you can reach me at rsaini88@gmail.com
 
 [Link to Github](https://github.com/rjsaini88)
 [Link to repo](https://github.com/rjsaini88/Rj-Saini-Portfolio)
-[Link to deployed site](https://main--jazzy-quokka-518630.netlify.app/#contact) 
+[Link to deployed site](https://main--jazzy-quokka-518630.netlify.app)
