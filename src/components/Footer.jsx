@@ -1,3 +1,8 @@
+import gh from "/src/assets/ghw.png";
+import linked from "/src/assets/linked.png";
+import resume from "/src/assets/resume.pdf";
+import resumePic from "/src/assets/resume4.png";
+
 export default function Footer() {
   return (
     <footer id="contact" className="bg-gray-800 md:sticky top-0 z-10">
@@ -13,7 +18,7 @@ export default function Footer() {
           >
             LinkedIn
             <img
-              src="./src/assets/linked.png"
+              src={linked}
               alt="LinkedIn logo"
               className="w-6 h-6 mx-auto mt-1"
             />
@@ -26,20 +31,20 @@ export default function Footer() {
           >
             GitHub
             <img
-              src="./src/assets/ghw.png"
+              src={gh}
               alt="GitHub logo"
               className="w-6 h-6 mx-auto mt-1"
             />
           </a>
           <a
-            href="../Assets/Ranjit Saini - Resume 2022.pdf"
+            href={resume}
             target="_blank"
             alt="Opens up my current Resume in a new tab"
             className="mr-5 hover:text-white"
           >
             Resume
             <img
-              src="./src/assets/resume4.png"
+              src={resumePic}
               alt="GitHub logo"
               className="w-6 h-6 mx-auto mt-1 mr-5 hover:text-black hover:bg-white"
             />
