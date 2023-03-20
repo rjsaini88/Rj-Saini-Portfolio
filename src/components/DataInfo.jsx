@@ -14,7 +14,7 @@ export const projects = [
     title: " Password Generator",
     subtitle: "Javascript ",
     description:
-      "My frist porject using javascript, very elementary programming, but what started the journey into advance coding. First project that helped understand the basics of programming",
+      "My first porject using javascript, very elementary programming, but what started the journey into advance coding. First project that helped understand the basics of programming",
     image: "./src/assets/password.png",
     link: "https://rjsaini88.github.io/Generate-Password/ ",
   },
@@ -30,13 +30,13 @@ export const projects = [
     title: "Get Your Drink On ",
     subtitle: "JavaScript, Jquery, and Bootstrap ",
     description:
-      " My first proejct working in a team, best take away from this was not what to do, but learend what not to do.",
+      " My first project working in a team, best take away from this was not what to do, but learend what not to do.",
     image: "../src/assets/GetYourDrinkOn.png ",
     link: " https://rjsaini88.github.io/GetYourDrinkON-/",
   },
   {
     title: " The Weather Application",
-    subtitle: "Bootstrap, Jquery, and Bootstrap",
+    subtitle: "JavaScript, Jquery, and Bootstrap",
     description:
       "First time using logic, looking back at to now, I can think of numerous ways to improve and fix.",
     image: "./src/assets/WeatherApp.png ",
