@@ -48,4 +48,5 @@ N/A
 For additional questions, you can reach me at rsaini88@gmail.com
 
 [Link to Github](https://github.com/rjsaini88)
-[Link to video presentation](https://drive.google.com/file/d/1QmaopftwJjGLozcwHzuZRbM7ymxSiUT_/view)
+[Link to repo](https://github.com/rjsaini88/Rj-Saini-Portfolio)
+[Link to video presentation](https://main--jazzy-quokka-518630.netlify.app/#contact) 
